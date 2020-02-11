@@ -8,10 +8,11 @@ nil
 end
 
 def find_max_value(array)
+  x = array[0]
   array.length.times do |party|
-    if array[party] > 
+    if array[party] > x
       return party
-    
+  
   end     
 #   array.max 
 end
