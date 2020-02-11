@@ -7,9 +7,12 @@ end
 nil
 end
 
-# def find_max_value(array)
+def find_max_value(array)
+  array.sort do |party|
+    array.last
+  end     
 #   array.max 
-# end
+end
 
 # def find_min_value(array)
 #   array.min
