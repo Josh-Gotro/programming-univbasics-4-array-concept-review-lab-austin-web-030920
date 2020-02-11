@@ -7,10 +7,10 @@ end
 nil
 end
 
-# def find_max_value(array)
-#   array.length.times do |party|
-#     if array[party] > else
-#       return party
+def find_max_value(array)
+  array.length.times do |party|
+    if array[party] > else
+      return party
     
 #   end     
 # #   array.max 
