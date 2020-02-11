@@ -9,7 +9,8 @@ end
 
 def find_max_value(array)
   array.sort do |party|
-    array.last
+    return array.last
+    
   end     
 #   array.max 
 end
