@@ -9,7 +9,7 @@ end
 
 def find_max_value(array)
   array.length.times do |party|
-    if array[party] > else
+    if array[party] > 
       return party
     
   end     
